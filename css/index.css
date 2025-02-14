@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fonte_principal: "Playfair Display", serif;
+    --fonte_secundaria: "Lato", serif;
+    --cinza : #e0e0e0;
+    --preto : #2c2c2c;
+    --branco :  #ffffff;
+
+}
+header{
+    position: relative;
+    padding: 20px;
+    background-color: var(--branco);
+    border-bottom: 2px solid var(--preto);
+}
+header h1{
+    font-family: var(--fonte_principal);
+    font-weight: 800;
+    font-size:30px ;
+    text-decoration: underline;
+}
+footer nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--fonte_secundaria);
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 15px;
+}
+/* #home-icone{
+    background-image: url('../img/home.png');
+    max-width: 50px;
+    max-height: 50px;
+}
+#search-icone{
+    background-image: url('../img/search.png');
+    background-size: cover;
+    max-width: 50px;
+    max-height: 50px;
+}
+#profile-icon{
+    background-image: url('../img/profile.png');
+    background-size: cover;
+    max-width: 50px;
+    max-height: 50px;
+} */
+ .material-symbols-outlined{
+    font-size: 40px;
+    color: var(--preto);
+ }
