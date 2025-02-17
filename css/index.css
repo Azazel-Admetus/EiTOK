@@ -24,35 +24,28 @@ header h1{
     font-size:30px ;
     text-decoration: underline;
 }
-footer nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
-    text-decoration: none;
+.link{
     font-family: var(--fonte_secundaria);
-    color: var(--preto);
     font-weight: 700;
-    font-size: 15px;
 }
-/* #home-icone{
+#home{
     background-image: url('../img/home.png');
-    max-width: 50px;
-    max-height: 50px;
-}
-#search-icone{
-    background-image: url('../img/search.png');
     background-size: cover;
     max-width: 50px;
     max-height: 50px;
+
 }
-#profile-icon{
+#explore{
+    background-image: url('../img/explore.png');
+    background-size: cover;
+    max-width: 50px;
+    max-height: 50px;
+
+}
+#profile{
     background-image: url('../img/profile.png');
     background-size: cover;
-    max-width: 50px;
     max-height: 50px;
-} */
- .material-symbols-outlined{
-    font-size: 40px;
-    color: var(--preto);
- }
+    max-width: 50px;
+
+}
