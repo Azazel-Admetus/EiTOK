@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>EiTOK</h1>
+        </header>
+        <form action="../php/login.php" method="POST">
+            <header>
+                <h2>ACESSE SUA CONTA</h2>
+            </header>
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required><br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </section>
+            <footer>
+                <p>Não possui uma conta? Então <a href="cadastro.html">Cadastre-se</a> </p>
+                <button type="submit">Acessar</button>
+            </footer>
+        </form>
+    </main>
+    
+</body>
+</html>
