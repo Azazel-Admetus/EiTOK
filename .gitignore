@@ -25,4 +25,4 @@ node_modules/
 /plugins/
 /platforms/
 # arquivo de conexão do banco de dados
-php/conn.php
+**/conn.php
