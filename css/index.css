@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fonte_principal: "Playfair Display", serif;
+    --fonte_secundaria: "Lato", serif;
+    --cinza : #e0e0e0;
+    --preto : #2c2c2c;
+    --branco :  #ffffff;
+
+}
+header{
+    position: relative;
+    padding: 20px;
+    background-color: var(--branco);
+    border-bottom: 2px solid var(--preto);
+}
+header h1{
+    font-family: var(--fonte_principal);
+    font-weight: 800;
+    font-size:30px ;
+    text-decoration: underline;
+}
+footer{
+    margin-top: 100%;
+    margin-bottom: 0%;
+}
+footer nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    list-style:none;    
+}
+footer nav ul li a{
+    color: var(--preto);
+    font-family: var(--fonte_secundaria);
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+footer nav ul li a:active{
+    text-decoration: underline;
+    transform: scale(0.95);
+}

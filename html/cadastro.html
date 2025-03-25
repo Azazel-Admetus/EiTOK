@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>EiTOK</h1>
+        </header>
+        <form action="../php/cadastro.php" method="POST">
+            <header>
+                <h2>Faça seu cadastro</h2>
+            </header>
+            <section>
+                <label for="username" >NOME DE USUÁRIO</label>
+                <input type="text" id="username" placeholder="DIGITE SEU NOME DE USUÁRIO" name="username"required><br>
+                <label for="email" >EMAIL</label>
+                <input type="email" id="email" placeholder="DIGITE SEU EMAIL" name="email" required><br>
+                <label for="password" >SENHA</label>
+                <input type="password" id="password" placeholder="DIGITE SUA SENHA" name="password" required autocomplete="new-password"><br>
+            </section>
+            <footer>
+                <p>Já tem uma conta? Faça <a href="login.html">Login</a></p>
+                <button type="submit">CADASTRAR</button>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
